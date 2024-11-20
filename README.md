@@ -1,6 +1,6 @@
 # Controle Financeiro
 
-Este projeto é um sistema de controle financeiro que permite o gerenciamento de lançamentos de receitas e despesas, possibilitando a visualização de um fluxo de caixa. O sistema oferece recursos para que o usuário registre, edite e visualize transações financeiras, exibindo os valores de forma detalhada e organizada, além de destacar saldos positivos e negativos para uma análise rápida.
+Este projeto é um sistema de controle financeiro que permite o gerenciamento de lançamentos de receitas e despesas, possibilitando a visualização de um fluxo de caixa. O sistema oferece recursos para que o usuário registre, edite e visualize transações financeiras, exibindo os valores de forma detalhada e organizada. Além disso, ele destaca saldos positivos e negativos para uma análise rápida e eficiente da saúde financeira.
 
 ## 🚀 Funcionalidades
 
@@ -24,7 +24,7 @@ Este projeto é um sistema de controle financeiro que permite o gerenciamento de
 * ASP.NET Core: Framework utilizado para criar a API REST, que fornece os dados para o frontend e lida com a lógica de negócio, incluindo validações e manipulação de dados.
 * Entity Framework Core: Utilizado para gerenciar o acesso ao banco de dados, facilitando operações CRUD (Create, Read, Update, Delete) e mapeamento objeto-relacional (ORM).
 
-### 🧮 Banco de Dados
+### 💽 Banco de Dados
 
 * SQL Server: Base de dados utilizada para armazenar os lançamentos financeiros e informações de usuários.
 
@@ -48,6 +48,10 @@ O React permite a criação de componentes reutilizáveis, o que facilita a manu
 
 * Implementação de login com armazenamento do token JWT no frontend.
 * Função de logout automático quando o token expira ou o usuário está inativo por muito tempo.
+
+### ✅ Testes
+
+A robustez do sistema foi garantida por meio de testes automatizados, implementados para verificar a funcionalidade das operações mais críticas da aplicação. Utilizando o framework de testes xUnit e o Moq para mocking, os testes cobrem cenários como a criação de usuários, login e controle de autenticação, garantindo que as funcionalidades críticas estejam funcionando corretamente. Além disso, o sistema foi projetado para detectar e responder adequadamente a erros, com a devida manipulação de exceções e retornos de status HTTP apropriados, como BadRequest em caso de falhas.
 
 ## 📌 Versão
 
